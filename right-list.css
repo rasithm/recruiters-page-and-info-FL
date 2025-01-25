@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body {
+      font-family: sans-serif;
+      
+}
+
+.list-right{
+    min-height: 800px;
+    height: auto;
+    /* background-color: rgb(190, 137, 137); */
+    width: 70%;
+    padding-left: 10px;
+    /* padding-right: 10px; */
+    padding-top: 10px;
+}
+
+.right-div{
+    min-height: 800px;
+    width: 100%;
+    /* background-color: #dd5a5a; */
+}
+
+.right-top{
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: .5px solid rgb(44, 42, 42);
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-top-1{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    /* background-color: #5aaddd; */
+}
+
+.all-job{
+    display: flex;
+    /* background-color: blue; */
+    color: white;
+    width: 50%;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.all-job p{
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #141B5F;
+    border-radius: 10px;
+}
+
+.draft{
+    display: flex;
+    /* background-color: rgb(148, 148, 226); */
+    color: white;
+    width: 50%;
+    
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black; 
+}
+.draft p{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    color: #141B5F;
+    border: #141B5F 1px solid;
+}
+
+.role-post-div{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    width: 65%;
+    justify-content: end;
+    
+}
+.role-post-text{
+    display: flex;
+    gap: 8px;
+    background-color: #141B5F;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.plus{
+    font-size: 20px;
+}
+.text{
+    font-size: 16px;
+    margin-top: 2px;
+}
+.right-middle{
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 10px;
+    /* border: .5px solid rgb(44, 42, 42); */
+    display: flex;
+    justify-content: space-between;
+}
+.select{
+    width: 50%;
+    display: flex;
+    /* background-color: aliceblue; */
+    align-items: center;
+    justify-content: baseline;
+    padding-left: 25px;
+    gap: 10px;
+    color: #555555;
+}
+.post-date{
+    width: 50%;
+    display: flex;
+    /* background-color: rgb(80, 112, 139); */
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+    gap: 10px;
+    color: #555555;
+}
+
+.right-box-1,.right-box-2,.right-box-3{
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: .5px solid rgb(44, 42, 42);
+    margin-bottom: 40px;
+}
+.right-box-1-content{
+    display: flex;
+    width: 100%;
+    /* background-color: rgb(113, 153, 187); */
+    min-height: 105px;
+    height: auto;
+}
+.c-box-1{
+    display: block;
+    min-height: 165px;
+    width: 30%;
+    /* background-color: antiquewhite; */
+    
+}
+.input-text{
+    min-height: 90px;
+    display: flex;
+    gap: 10px;
+    /* background-color: blueviolet; */
+    align-items: baseline;
+    padding-top: 10px;
+    justify-content: center;
+    /* padding-left: 5px; */
+}
+.c-1-text{
+    display: block;
+}
+.text-1{
+    font-size: 18px;
+}
+.text-2{
+    font-size: 14px;
+    color: #555555;
+}
+.check{
+    width: 18px;
+    height: 18px;
+}
+
+.Expired{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    min-height: 75px;
+    height: auto;
+    gap: 5px;
+    padding-right: 40px;
+}
+.Expired-1,.Expired-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    min-height: 75px;
+    height: auto;
+    gap: 5px;
+    padding-right: 40px;
+}
+.Expired p{
+    font-size: 14px;
+    color: red;
+}
+.Expired i{
+    font-size: 14px;
+    color: red;
+}
+.Expired-1 i{
+    font-size: 14px;
+    color: rgb(0, 218, 0);
+}
+.Expired-1 p{
+    font-size: 14;
+    color: rgb(0, 218, 0);
+}
+.Expired-2 i{
+    font-size: 14px;
+    color: #555555;
+}
+.Expired-2 p{
+    font-size: 14px;
+    color: #555555;
+}
+.c-box-2{
+    display: flex;
+    width: 40%;
+    min-height: 165px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* background-color: antiquewhite; */
+}
+.num-1,.num-2,.num-3{
+    display: block;
+    width: 1/3;
+    text-align: center;
+    
+    align-items: center; 
+    justify-content: center; 
+    /* background-color: #dd5a5a; */
+}
+.num{
+    font-size: 22px;
+    color: #555555;
+}
+.num-text{
+    font-size: 18px;
+    color: #555555;
+}
+.c-box-3{
+    display: block;
+    width: 30%;
+    /* background-color: blueviolet; */
+    min-height: 165px;
+    height: auto;
+}
+.Report{
+    display: flex;
+    
+    padding-top: 10px;
+    /* background-color: aqua; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Report p{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    color: #141B5F;
+    border: 1px solid #141B5F;
+    /* height: 40px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.Report i{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    color: #555555;
+    /* margin-top: 10px; */
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.date p{
+    font-size: 14px;
+    color: #555555;
+}
+
+.hightlight{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding-left: 25px;
+    border: .5px solid rgb(243, 0, 0);
+
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    
+}
+.underline{
+    font-size: 14px;
+    text-decoration: underline;
+   
+}
+.hightlight p{
+    font-size: 14px;
+    
+}
+
+.right-box-2 .hightlight{
+    display: none;
+}
+.right-box-3 .hightlight{
+    display: none;
+}
