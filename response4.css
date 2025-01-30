@@ -158,6 +158,24 @@
     
     
   }
+  @media (min-width:776px) and (max-width:899px){
+    .item-div-1{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .item-div-1 li a{
+        gap: 7px;
+    }
+    .nav-company-text-1{
+        font-size: 14px;
+    }
+    .nav-company-text-2{
+        font-size: 10px;
+    }
+    .item a{
+        font-size: 14px;
+    }
+  }
 
 
   @media (min-width:776px) and (max-width:804px){

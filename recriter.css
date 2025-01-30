@@ -134,11 +134,11 @@ body{
     background-color: #000000; 
 }
 .fa-caret-right {
-    font-size: 22px;
+    font-size: 24px;
     color: white;
 }
 .fa-suitcase,.fa-id-card,.fa-users-gear,.fa-user-pen,.fa-building-user,.fa-magnifying-glass-location{
-    font-size: 20px;
+    font-size: 22px;
     padding-right: 2px;
     color: white;
     margin-left: 5px;
@@ -147,6 +147,11 @@ body{
 .p{
     font-size: 16px;
     color: white;
+    display: flex;
+    gap: 5px;
+}
+.p p{
+    font-size: 14px;
 }
 /*hide left bar */
 .nav-div-hide{
