@@ -152,10 +152,12 @@ body {
     height: auto;
 }
 .c-box-1{
-    display: block;
+    display: flex;
+    flex-direction: column;
     min-height: 165px;
     width: 30%;
     /* background-color: antiquewhite; */
+    justify-content: space-between;
     
 }
 .input-text{
@@ -167,9 +169,14 @@ body {
     padding-top: 10px;
     justify-content: center;
     /* padding-left: 5px; */
+    
 }
+
 .c-1-text{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #8b2727; */
+    padding-top: 0px;
 }
 .text-1{
     font-size: 18px;
@@ -181,6 +188,8 @@ body {
 .check{
     width: 18px;
     height: 18px;
+    
+    
 }
 
 .Expired{
@@ -188,7 +197,7 @@ body {
     justify-content: center;
     align-items: center;
     /* background-color: aquamarine; */
-    min-height: 75px;
+    min-height: 60px;
     height: auto;
     gap: 5px;
     padding-right: 40px;
@@ -198,7 +207,7 @@ body {
     justify-content: center;
     align-items: center;
     /* background-color: aquamarine; */
-    min-height: 75px;
+    min-height: 60px;
     height: auto;
     gap: 5px;
     padding-right: 40px;
@@ -251,15 +260,17 @@ body {
     color: #555555;
 }
 .num-text{
-    font-size: 18px;
+    font-size: 15px;
     color: #555555;
 }
 .c-box-3{
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 30%;
     /* background-color: blueviolet; */
     min-height: 165px;
     height: auto;
+    justify-content: space-between;
 }
 .Report{
     display: flex;
@@ -286,7 +297,7 @@ body {
     margin-bottom: 5px;
 }
 .Report i{
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 15px;
     margin-bottom: 5px;
     color: #555555;
@@ -296,7 +307,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 60px;
+    /* background-color: #d82e2e; */
+    margin-top: 30px;
 }
 .date p{
     font-size: 14px;
@@ -327,8 +340,8 @@ body {
 }
 
 .right-box-2 .hightlight{
-    display: none;
+    display: flex;
 }
 .right-box-3 .hightlight{
-    display: none;
+    display: flex;
 }
