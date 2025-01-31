@@ -92,11 +92,19 @@ body {
     .c-box-2{
         width: 35% !important;
     }
+    .c-3-postion-1{
+        width: 90% !important;
+        font-size: 15px;
+    }
+    .c-3-postion-2{
+        width: 90% !important;
+        font-size: 15px;
+    }
 
     
 
 }
-@media (min-width:360px) and (max-width:621px) {
+@media (min-width:387px) and (max-width:621px) {
     .r-down-main{
         padding-right: 0px;
         background-color:#f4f5ff ;
@@ -216,12 +224,18 @@ body {
     .date{
         position: absolute !important;
         bottom: 1%;
-        width: 60% !important;
-        /* background-color: bisque; */
+        width: 70% !important;
+        background-color: bisque;
         right: 1%;
         height: 30px !important;
         justify-content: end !important;
-        padding-right:15px ;
+        padding-right:10px ;
+    }
+    .c-box-3{
+        position: absolute !important;
+        right: 1px !important;
+        height: 100% !important;
+        width: 80% !important;
     }
 
     .c-box-2{
@@ -231,6 +245,24 @@ body {
         left: 15%;
         min-height: 60px !important;
         /* background-color: bisque; */
+    }
+
+    .c-3-postion{
+        align-items: end !important;
+        right: 1% !important;
+        padding-right: 5%;
+    }
+    .c-3-postion-1{
+        width: 50% !important;
+        font-size: 14px;
+        
+        
+    }
+    .c-3-postion-2{
+        width: 50% !important;
+        font-size: 14px;
+        
+        
     }
    
 
@@ -242,7 +274,7 @@ body {
         position: relative !important;
     }
     .hightlight p{
-        font-size: 11px !important;
+        font-size: 10px !important;
         display: flex;
         
         /* position: absolute !important; */
@@ -291,7 +323,7 @@ body {
         position: relative !important;
     }
     .hightlight p{
-        font-size: 10px !important;
+        font-size: 9px !important;
         display: flex;
         
         /* position: absolute !important; */
@@ -309,7 +341,7 @@ body {
         
     }
 }
-@media (min-width:320px) and (max-width:359px){
+@media (min-width:320px) and (max-width:386px){
     .r-down-main{
         padding-right: 0px;
         background-color:#f4f5ff ;
@@ -465,8 +497,8 @@ body {
     .date{
         position: absolute !important;
         bottom: 1%;
-        width: 65% !important;
-        /* background-color: bisque; */
+        width: 85% !important;
+        background-color: bisque;
         right: 1%;
         height: 30px !important;
         justify-content: end !important;
@@ -474,6 +506,12 @@ body {
     }
     .date p{
         font-size: 13px !important;
+    }
+    .c-box-3{
+        position: absolute !important;
+        right: 1px !important;
+        height: 100% !important;
+        width: 80% !important;
     }
 
     .c-box-2{
@@ -494,7 +532,42 @@ body {
         
         
     }
+
+    .c-3-postion{
+        align-items: end !important;
+        right: 1% !important;
+        padding-right: 2%;
+    }
+    .c-3-postion-1{
+        width: 50% !important;
+        font-size: 13px;
+        
+        
+    }
+    .c-3-postion-2{
+        width: 50% !important;
+        font-size: 13px;
+        
+        
+    }
 }
+@media (min-width:320px) and (max-width:333px){
+
+    .hightlight{
+        padding-left: 1px !important;
+        position: relative !important;
+    }
+    .hightlight p{
+        font-size: 7px !important;
+        display: flex;
+        
+        
+    }
+    .post-date p{
+        font-size: 13px !important;
+    }
+}
+
 
 
 

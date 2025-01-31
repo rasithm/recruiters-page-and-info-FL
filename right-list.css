@@ -311,7 +311,7 @@ body {
     min-height: 130px;
     height: auto;
     justify-content: space-between;
-    /* position: relative; */
+    position: relative;
 }
 .Report{
     display: flex;
