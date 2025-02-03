@@ -24,7 +24,8 @@
     <title>Recruiter</title>
 </head>
 <body>
-    <div class="parent">
+    <div class="overlay" id="overlay"></div>
+    <div class="parent" id="parent">
         <div class="r-left">
             <nav class="left-nav">
                 <div class="nav-div">
@@ -397,7 +398,7 @@
                                             <p class="plus">+</p>
                                             <p class="text">Create new Role Post</p>
                                         </div>
-                                        <div class="m-filter-div">
+                                        <div class="m-filter-div" id="m-filter-div">
                                             <i class="fa-solid fa-arrow-down-wide-short"></i>
                                             <p>Filters</p> 
                                         </div>
@@ -415,11 +416,13 @@
                                     </div>
                                     <div class="post-date">
                                         <p>Sort By : Posted Date</p>
-                                        <i class="fa-solid fa-angle-down"></i>
+                                        <i class="fa-solid fa-angle-down" id="Post-Date"></i>
 
                                     </div>    
                                 </div>
+                                <div class="post-date-click" id="post-date-click">
 
+                                </div>
 
 
 
@@ -649,6 +652,11 @@
             </div>
         </div>
     </div>
+
+
+
+
+    
     
 </body>
 </html>

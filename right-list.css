@@ -431,3 +431,17 @@ body {
 .right-box-3 .hightlight{
     display: none;
 }
+
+
+
+
+
+.post-date-click{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 100px;
+    background-color: #c74141;
+    border-radius: 10px;
+    display: none;
+}
