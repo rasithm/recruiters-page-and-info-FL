@@ -53,20 +53,74 @@ showMenuBar2.addEventListener('click', function() {
     }
 });
 
-const filterDiv = document.getElementById('m-filter-div');
+// const filterDiv = document.getElementById('m-filter-div');
+// const xMark = document.getElementById('x-mark')
+// filterDiv.addEventListener('click' , function(){
+//     mobileView();
+// })
+// xMark.addEventListener('click' , function(){
+//     mobileView();
+// })
 
-filterDiv.addEventListener('click' , function(){
-    mobileView();
-})
+// const mobileView = () => {
+    
+    
+//     if(window.innerWidth >= 320 && window.innerWidth <= 999){
+//         let overLay = document.getElementById('overlay')
+//         let m1ListDiv = document.getElementById("m1-filter-div")
+//         if(overLay.style.display == 'none' || m1ListDiv.style.display == 'none' ){
+//             overLay.style.display = 'flex';
+//             m1ListDiv.style.display = 'flex';
+//         }
+//         if(overLay.style.display == 'flex' || m1ListDiv.style.display == 'flex'){
+//             overLay.style.display = 'none';
+//             m1ListDiv.style.display = 'none';
+//         }
 
-const mobileView = () => {
-    if(window.innerWidth >= 320 && window.innerWidth <= 999){
-        let overLay = document.getElementById('overlay')
-        overLay.style.display = 'flex';
         
+//     }
+
+// }
+
+
+
+// window.addEventListener('resize' , mobileView)
+
+const filterDiv = document.getElementById('m-filter-div'); // Filter button
+const xMark = document.querySelector('.x-mark'); // X close button
+
+filterDiv.addEventListener('click', function () {
+    mobileView(true); // Show filter when clicked
+});
+
+xMark.addEventListener('click', function () {
+    mobileView(false); // Hide filter when clicked
+});
+
+const mobileView = (show) => {
+    if (window.innerWidth >= 320 && window.innerWidth <= 999) {
+        let overLay = document.getElementById('overlay');
+        let m1ListDiv = document.getElementById("m1-filter-div");
+
+        if (show) {
+            overLay.style.display = 'flex';
+            m1ListDiv.style.display = 'flex';
+        } else {
+            overLay.style.display = 'none';
+            m1ListDiv.style.display = 'none';
+        }
     }
-}
+};
 
+// Hide when clicking on overlay
+document.getElementById('overlay').addEventListener('click', function () {
+    mobileView(false);
+});
 
-window.addEventListener('resize' , mobileView)
+// Ensure mobile view updates on window resize
+window.addEventListener('resize', function () {
+    if (window.innerWidth > 999) {
+        mobileView(false); // Hide the filter when switching to a larger screen
+    }
+});
 
